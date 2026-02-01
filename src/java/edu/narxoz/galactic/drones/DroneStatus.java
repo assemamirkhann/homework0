@@ -1,4 +1,6 @@
 package java.edu.narxoz.galactic.drones;
 
-public class DroneStatus {
+public enum DroneStatus {
+    IDLE,
+    IN_FLIGHT
 }

@@ -1,6 +1,6 @@
 package java.edu.narxoz.galactic.bodies;
 
-public class CelestialBody {
+public abstract class CelestialBody {
     private String name;
     private double x;
     private double y;
