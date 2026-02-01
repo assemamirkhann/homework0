@@ -39,10 +39,10 @@ public class DeliveryTask {
         }
         return origin.distanceTo(destination) / assignedDrone.speedKmPerMin();
     }
-    void setState(TaskState state){
+    public void setState(TaskState state){
         this.state = state;
     }
-    void setAssignedDrone(Drone drone){
+    public void setAssignedDrone(Drone drone){
         this.assignedDrone = drone;
     }
 }

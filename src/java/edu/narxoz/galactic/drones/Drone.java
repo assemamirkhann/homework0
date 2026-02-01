@@ -22,7 +22,7 @@ public abstract class Drone {
     public double getMaxPayloadKg(){
         return maxPayloadKg;
     }
-    protected void setStatus(DroneStatus status){
+    public void setStatus(DroneStatus status){
         this.status = status;
     }
     public abstract double speedKmPerMin();
